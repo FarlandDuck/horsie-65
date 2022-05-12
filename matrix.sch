@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:horsie-65-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,50 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Switch:SW_Push SW1
-U 1 1 628A0939
-P 1350 1200
-F 0 "SW1" H 1350 1485 50  0000 C CNN
-F 1 "ESC" H 1350 1394 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 1350 1400 50  0001 C CNN
-F 3 "~" H 1350 1400 50  0001 C CNN
-	1    1350 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW2
-U 1 1 628ACC03
-P 1950 1200
-F 0 "SW2" H 1950 1485 50  0000 C CNN
-F 1 "#1" H 1950 1394 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 1950 1400 50  0001 C CNN
-F 3 "~" H 1950 1400 50  0001 C CNN
-	1    1950 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW3
-U 1 1 628B0D16
-P 2550 1200
-F 0 "SW3" H 2550 1485 50  0000 C CNN
-F 1 "#2" H 2550 1394 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 2550 1400 50  0001 C CNN
-F 3 "~" H 2550 1400 50  0001 C CNN
-	1    2550 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW4
-U 1 1 628B0D2C
-P 3150 1200
-F 0 "SW4" H 3150 1485 50  0000 C CNN
-F 1 "#3" H 3150 1394 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 3150 1400 50  0001 C CNN
-F 3 "~" H 3150 1400 50  0001 C CNN
-	1    3150 1200
-	1    0    0    -1  
-$EndComp
 NoConn ~ 1450 1150
 $Comp
 L Switch:SW_Push SW5
@@ -67,7 +24,7 @@ F 1 "#4" H 3750 1394 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 3750 1400 50  0001 C CNN
 F 3 "~" H 3750 1400 50  0001 C CNN
 	1    3750 1200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW6
@@ -89,7 +46,7 @@ F 1 "#6" H 4950 1394 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4950 1400 50  0001 C CNN
 F 3 "~" H 4950 1400 50  0001 C CNN
 	1    4950 1200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW8
@@ -100,7 +57,7 @@ F 1 "#7" H 5550 1394 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 5550 1400 50  0001 C CNN
 F 3 "~" H 5550 1400 50  0001 C CNN
 	1    5550 1200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 NoConn ~ 3850 1150
 $Comp
@@ -112,7 +69,7 @@ F 1 "#8" H 6150 1394 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 6150 1400 50  0001 C CNN
 F 3 "~" H 6150 1400 50  0001 C CNN
 	1    6150 1200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW10
@@ -123,7 +80,7 @@ F 1 "#9" H 6750 1394 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 6750 1400 50  0001 C CNN
 F 3 "~" H 6750 1400 50  0001 C CNN
 	1    6750 1200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW11
@@ -134,7 +91,7 @@ F 1 "#0" H 7350 1394 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 7350 1400 50  0001 C CNN
 F 3 "~" H 7350 1400 50  0001 C CNN
 	1    7350 1200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW12
@@ -145,7 +102,7 @@ F 1 "-_" H 7950 1394 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 7950 1400 50  0001 C CNN
 F 3 "~" H 7950 1400 50  0001 C CNN
 	1    7950 1200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 NoConn ~ 6250 1150
 $Comp
@@ -157,7 +114,7 @@ F 1 "=+" H 8550 1394 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 8550 1400 50  0001 C CNN
 F 3 "~" H 8550 1400 50  0001 C CNN
 	1    8550 1200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW14
@@ -165,10 +122,10 @@ U 1 1 628DD033
 P 9150 1200
 F 0 "SW14" H 9150 1485 50  0000 C CNN
 F 1 "BSPC" H 9150 1394 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 9150 1400 50  0001 C CNN
+F 2 "MX_Only:MXOnly-2U-NoLED" H 9150 1400 50  0001 C CNN
 F 3 "~" H 9150 1400 50  0001 C CNN
 	1    9150 1200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW15
@@ -179,39 +136,11 @@ F 1 "INSR" H 9750 1394 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 9750 1400 50  0001 C CNN
 F 3 "~" H 9750 1400 50  0001 C CNN
 	1    9750 1200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 NoConn ~ 8650 1150
 Wire Wire Line
-	1550 1200 1550 900 
-Wire Wire Line
-	2150 1200 2150 900 
-Wire Wire Line
-	2750 1200 2750 900 
-Wire Wire Line
-	3350 1200 3350 900 
-Wire Wire Line
-	3950 1200 3950 900 
-Wire Wire Line
 	4550 1200 4550 900 
-Wire Wire Line
-	5150 1200 5150 900 
-Wire Wire Line
-	5750 1200 5750 900 
-Wire Wire Line
-	6350 1200 6350 900 
-Wire Wire Line
-	6950 1200 6950 900 
-Wire Wire Line
-	7550 1200 7550 900 
-Wire Wire Line
-	8150 1200 8150 900 
-Wire Wire Line
-	8750 1200 8750 900 
-Wire Wire Line
-	9350 1200 9350 900 
-Wire Wire Line
-	9950 1200 9950 900 
 Text GLabel 1550 900  1    50   Input ~ 0
 col0
 Text GLabel 2150 900  1    50   Input ~ 0
@@ -448,36 +377,6 @@ F 3 "~" H 1150 1350 50  0001 C CNN
 	1    1150 1350
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1550 2150 1550 1200
-Wire Wire Line
-	2150 2150 2150 1200
-Wire Wire Line
-	2750 2150 2750 1200
-Wire Wire Line
-	3350 2150 3350 1200
-Wire Wire Line
-	3950 2150 3950 1200
-Wire Wire Line
-	4550 2150 4550 1200
-Wire Wire Line
-	5150 2150 5150 1200
-Wire Wire Line
-	5750 2150 5750 1200
-Wire Wire Line
-	6350 2150 6350 1200
-Wire Wire Line
-	6950 2150 6950 1200
-Wire Wire Line
-	7550 2150 7550 1200
-Wire Wire Line
-	8150 2150 8150 1200
-Wire Wire Line
-	8750 2150 8750 1200
-Wire Wire Line
-	9350 2150 9350 1200
-Wire Wire Line
-	9950 2150 9950 1200
 $Comp
 L Device:D D16
 U 1 1 62A2CE83
@@ -694,7 +593,7 @@ F 1 "DLTE" H 9750 2344 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 9750 2350 50  0001 C CNN
 F 3 "~" H 9750 2350 50  0001 C CNN
 	1    9750 2150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW29
@@ -702,10 +601,10 @@ U 1 1 62A2CDB8
 P 9150 2150
 F 0 "SW29" H 9150 2435 50  0000 C CNN
 F 1 "\\|" H 9150 2344 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 9150 2350 50  0001 C CNN
+F 2 "MX_Only:MXOnly-1.5U-NoLED" H 9150 2350 50  0001 C CNN
 F 3 "~" H 9150 2350 50  0001 C CNN
 	1    9150 2150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW28
@@ -716,7 +615,7 @@ F 1 "]}" H 8550 2344 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 8550 2350 50  0001 C CNN
 F 3 "~" H 8550 2350 50  0001 C CNN
 	1    8550 2150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 NoConn ~ 6250 2100
 $Comp
@@ -728,7 +627,7 @@ F 1 "[{" H 7950 2344 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 7950 2350 50  0001 C CNN
 F 3 "~" H 7950 2350 50  0001 C CNN
 	1    7950 2150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW26
@@ -739,7 +638,7 @@ F 1 "P" H 7350 2344 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 7350 2350 50  0001 C CNN
 F 3 "~" H 7350 2350 50  0001 C CNN
 	1    7350 2150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW25
@@ -750,7 +649,7 @@ F 1 "O" H 6750 2344 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 6750 2350 50  0001 C CNN
 F 3 "~" H 6750 2350 50  0001 C CNN
 	1    6750 2150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW24
@@ -761,7 +660,7 @@ F 1 "I" H 6150 2344 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 6150 2350 50  0001 C CNN
 F 3 "~" H 6150 2350 50  0001 C CNN
 	1    6150 2150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 NoConn ~ 3850 2100
 $Comp
@@ -773,7 +672,7 @@ F 1 "U" H 5550 2344 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 5550 2350 50  0001 C CNN
 F 3 "~" H 5550 2350 50  0001 C CNN
 	1    5550 2150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW22
@@ -784,7 +683,7 @@ F 1 "Y" H 4950 2344 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4950 2350 50  0001 C CNN
 F 3 "~" H 4950 2350 50  0001 C CNN
 	1    4950 2150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW21
@@ -795,7 +694,7 @@ F 1 "T" H 4350 2344 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4350 2350 50  0001 C CNN
 F 3 "~" H 4350 2350 50  0001 C CNN
 	1    4350 2150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW20
@@ -806,7 +705,7 @@ F 1 "R" H 3750 2344 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 3750 2350 50  0001 C CNN
 F 3 "~" H 3750 2350 50  0001 C CNN
 	1    3750 2150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 NoConn ~ 1450 2100
 $Comp
@@ -818,7 +717,7 @@ F 1 "E" H 3150 2344 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 3150 2350 50  0001 C CNN
 F 3 "~" H 3150 2350 50  0001 C CNN
 	1    3150 2150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW18
@@ -829,7 +728,7 @@ F 1 "W" H 2550 2344 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 2550 2350 50  0001 C CNN
 F 3 "~" H 2550 2350 50  0001 C CNN
 	1    2550 2150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW17
@@ -840,7 +739,7 @@ F 1 "Q" H 1950 2344 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 1950 2350 50  0001 C CNN
 F 3 "~" H 1950 2350 50  0001 C CNN
 	1    1950 2150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW16
@@ -851,51 +750,9 @@ F 1 "TAB" H 1350 2344 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.5U-NoLED" H 1350 2350 50  0001 C CNN
 F 3 "~" H 1350 2350 50  0001 C CNN
 	1    1350 2150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Connection ~ 1550 1200
-Connection ~ 2150 1200
-Connection ~ 2750 1200
-Connection ~ 3350 1200
-Connection ~ 3950 1200
 Connection ~ 4550 1200
-Connection ~ 5150 1200
-Connection ~ 5750 1200
-Connection ~ 6350 1200
-Connection ~ 6950 1200
-Connection ~ 7550 1200
-Connection ~ 8150 1200
-Connection ~ 8750 1200
-Connection ~ 9350 1200
-Connection ~ 9950 1200
-Wire Wire Line
-	1550 3100 1550 2150
-Wire Wire Line
-	2150 3100 2150 2150
-Wire Wire Line
-	2750 3100 2750 2150
-Wire Wire Line
-	3350 3100 3350 2150
-Wire Wire Line
-	3950 3100 3950 2150
-Wire Wire Line
-	4550 3100 4550 2150
-Wire Wire Line
-	5150 3100 5150 2150
-Wire Wire Line
-	5750 3100 5750 2150
-Wire Wire Line
-	6350 3100 6350 2150
-Wire Wire Line
-	6950 3100 6950 2150
-Wire Wire Line
-	7550 3100 7550 2150
-Wire Wire Line
-	8150 3100 8150 2150
-Wire Wire Line
-	9350 3100 9350 2150
-Wire Wire Line
-	9950 3100 9950 2150
 $Comp
 L Device:D D31
 U 1 1 62AC6CCF
@@ -1095,7 +952,7 @@ F 1 "PGUP" H 9750 3294 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 9750 3300 50  0001 C CNN
 F 3 "~" H 9750 3300 50  0001 C CNN
 	1    9750 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW43
@@ -1103,10 +960,10 @@ U 1 1 62AC6D8B
 P 9150 3100
 F 0 "SW43" H 9150 3385 50  0000 C CNN
 F 1 "ENTR" H 9150 3294 50  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 9150 3300 50  0001 C CNN
+F 2 "MX_Only:MXOnly-2.25U-NoLED" H 9150 3300 50  0001 C CNN
 F 3 "~" H 9150 3300 50  0001 C CNN
 	1    9150 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 NoConn ~ 6250 3050
 $Comp
@@ -1118,7 +975,7 @@ F 1 "'\"" H 7950 3294 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 7950 3300 50  0001 C CNN
 F 3 "~" H 7950 3300 50  0001 C CNN
 	1    7950 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW41
@@ -1129,7 +986,7 @@ F 1 ";:" H 7350 3294 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 7350 3300 50  0001 C CNN
 F 3 "~" H 7350 3300 50  0001 C CNN
 	1    7350 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW40
@@ -1140,7 +997,7 @@ F 1 "L" H 6750 3294 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 6750 3300 50  0001 C CNN
 F 3 "~" H 6750 3300 50  0001 C CNN
 	1    6750 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW39
@@ -1151,7 +1008,7 @@ F 1 "K" H 6150 3294 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 6150 3300 50  0001 C CNN
 F 3 "~" H 6150 3300 50  0001 C CNN
 	1    6150 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 NoConn ~ 3850 3050
 $Comp
@@ -1163,7 +1020,7 @@ F 1 "J" H 5550 3294 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 5550 3300 50  0001 C CNN
 F 3 "~" H 5550 3300 50  0001 C CNN
 	1    5550 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW37
@@ -1174,7 +1031,7 @@ F 1 "H" H 4950 3294 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4950 3300 50  0001 C CNN
 F 3 "~" H 4950 3300 50  0001 C CNN
 	1    4950 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW36
@@ -1185,7 +1042,7 @@ F 1 "G" H 4350 3294 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4350 3300 50  0001 C CNN
 F 3 "~" H 4350 3300 50  0001 C CNN
 	1    4350 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW35
@@ -1196,7 +1053,7 @@ F 1 "F" H 3750 3294 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 3750 3300 50  0001 C CNN
 F 3 "~" H 3750 3300 50  0001 C CNN
 	1    3750 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 NoConn ~ 1450 3050
 $Comp
@@ -1208,7 +1065,7 @@ F 1 "D" H 3150 3294 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 3150 3300 50  0001 C CNN
 F 3 "~" H 3150 3300 50  0001 C CNN
 	1    3150 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW33
@@ -1219,7 +1076,7 @@ F 1 "S" H 2550 3294 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 2550 3300 50  0001 C CNN
 F 3 "~" H 2550 3300 50  0001 C CNN
 	1    2550 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW32
@@ -1230,7 +1087,7 @@ F 1 "A" H 1950 3294 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 1950 3300 50  0001 C CNN
 F 3 "~" H 1950 3300 50  0001 C CNN
 	1    1950 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW31
@@ -1241,49 +1098,8 @@ F 1 "CAPS" H 1350 3294 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.75U-NoLED" H 1350 3300 50  0001 C CNN
 F 3 "~" H 1350 3300 50  0001 C CNN
 	1    1350 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Connection ~ 1550 2150
-Connection ~ 2150 2150
-Connection ~ 2750 2150
-Connection ~ 3350 2150
-Connection ~ 3950 2150
-Connection ~ 4550 2150
-Connection ~ 5150 2150
-Connection ~ 5750 2150
-Connection ~ 6350 2150
-Connection ~ 6950 2150
-Connection ~ 7550 2150
-Connection ~ 8150 2150
-Connection ~ 8750 2150
-Connection ~ 9350 2150
-Connection ~ 9950 2150
-Wire Wire Line
-	1550 4050 1550 3100
-Wire Wire Line
-	2150 4050 2150 3100
-Wire Wire Line
-	2750 4050 2750 3100
-Wire Wire Line
-	3350 4050 3350 3100
-Wire Wire Line
-	3950 4050 3950 3100
-Wire Wire Line
-	4550 4050 4550 3100
-Wire Wire Line
-	5150 4050 5150 3100
-Wire Wire Line
-	5750 4050 5750 3100
-Wire Wire Line
-	6350 4050 6350 3100
-Wire Wire Line
-	6950 4050 6950 3100
-Wire Wire Line
-	7550 4050 7550 3100
-Wire Wire Line
-	9350 4050 9350 3100
-Wire Wire Line
-	9950 4050 9950 3100
 $Comp
 L Device:D D45
 U 1 1 62AE758D
@@ -1484,7 +1300,7 @@ F 1 "PGDN" H 9750 4244 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 9750 4250 50  0001 C CNN
 F 3 "~" H 9750 4250 50  0001 C CNN
 	1    9750 4050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW57
@@ -1495,7 +1311,7 @@ F 1 "UARW" H 9150 4244 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 9150 4250 50  0001 C CNN
 F 3 "~" H 9150 4250 50  0001 C CNN
 	1    9150 4050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW56
@@ -1506,7 +1322,7 @@ F 1 "RSHF" H 8550 4244 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.75U-NoLED" H 8550 4250 50  0001 C CNN
 F 3 "~" H 8550 4250 50  0001 C CNN
 	1    8550 4050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 NoConn ~ 6250 4000
 $Comp
@@ -1518,7 +1334,7 @@ F 1 "/?" H 7350 4244 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 7350 4250 50  0001 C CNN
 F 3 "~" H 7350 4250 50  0001 C CNN
 	1    7350 4050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW54
@@ -1529,7 +1345,7 @@ F 1 ".>" H 6750 4244 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 6750 4250 50  0001 C CNN
 F 3 "~" H 6750 4250 50  0001 C CNN
 	1    6750 4050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW53
@@ -1540,7 +1356,7 @@ F 1 ",<" H 6150 4244 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 6150 4250 50  0001 C CNN
 F 3 "~" H 6150 4250 50  0001 C CNN
 	1    6150 4050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 NoConn ~ 3850 4000
 $Comp
@@ -1552,7 +1368,7 @@ F 1 "M" H 5550 4244 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 5550 4250 50  0001 C CNN
 F 3 "~" H 5550 4250 50  0001 C CNN
 	1    5550 4050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW51
@@ -1563,7 +1379,7 @@ F 1 "N" H 4950 4244 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4950 4250 50  0001 C CNN
 F 3 "~" H 4950 4250 50  0001 C CNN
 	1    4950 4050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW50
@@ -1574,7 +1390,7 @@ F 1 "B" H 4350 4244 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4350 4250 50  0001 C CNN
 F 3 "~" H 4350 4250 50  0001 C CNN
 	1    4350 4050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW49
@@ -1585,7 +1401,7 @@ F 1 "V" H 3750 4244 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 3750 4250 50  0001 C CNN
 F 3 "~" H 3750 4250 50  0001 C CNN
 	1    3750 4050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 NoConn ~ 1450 4000
 $Comp
@@ -1597,7 +1413,7 @@ F 1 "C" H 3150 4244 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 3150 4250 50  0001 C CNN
 F 3 "~" H 3150 4250 50  0001 C CNN
 	1    3150 4050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW47
@@ -1608,7 +1424,7 @@ F 1 "X" H 2550 4244 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 2550 4250 50  0001 C CNN
 F 3 "~" H 2550 4250 50  0001 C CNN
 	1    2550 4050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW46
@@ -1619,7 +1435,7 @@ F 1 "Z" H 1950 4244 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 1950 4250 50  0001 C CNN
 F 3 "~" H 1950 4250 50  0001 C CNN
 	1    1950 4050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW45
@@ -1630,25 +1446,10 @@ F 1 "LSHF" H 1350 4244 50  0000 C CNN
 F 2 "MX_Only:MXOnly-2.25U-NoLED" H 1350 4250 50  0001 C CNN
 F 3 "~" H 1350 4250 50  0001 C CNN
 	1    1350 4050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Connection ~ 1550 3100
-Connection ~ 2150 3100
-Connection ~ 2750 3100
-Connection ~ 3350 3100
-Connection ~ 3950 3100
-Connection ~ 4550 3100
-Connection ~ 5150 3100
-Connection ~ 5750 3100
-Connection ~ 6350 3100
-Connection ~ 6950 3100
-Connection ~ 7550 3100
-Connection ~ 9350 3100
-Connection ~ 9950 3100
 Wire Wire Line
 	7750 3400 8950 3400
-Wire Wire Line
-	8750 2150 8750 4050
 Wire Wire Line
 	7150 4350 8350 4350
 Text GLabel 900  1500 0    50   Input ~ 0
@@ -1671,22 +1472,6 @@ Text GLabel 900  3400 0    50   Input ~ 0
 row2
 Text GLabel 900  4350 0    50   Input ~ 0
 row3
-Wire Wire Line
-	1550 5000 1550 4050
-Wire Wire Line
-	2150 5000 2150 4050
-Wire Wire Line
-	2750 5000 2750 4050
-Wire Wire Line
-	5150 5000 5150 4050
-Wire Wire Line
-	7550 5000 7550 4050
-Wire Wire Line
-	8750 5000 8750 4050
-Wire Wire Line
-	9350 5000 9350 4050
-Wire Wire Line
-	9950 5000 9950 4050
 $Comp
 L Device:D D59
 U 1 1 62B39E60
@@ -1796,7 +1581,7 @@ F 1 "RARW" H 9750 5194 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 9750 5200 50  0001 C CNN
 F 3 "~" H 9750 5200 50  0001 C CNN
 	1    9750 5000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW66
@@ -1807,7 +1592,7 @@ F 1 "DARW" H 9150 5194 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 9150 5200 50  0001 C CNN
 F 3 "~" H 9150 5200 50  0001 C CNN
 	1    9150 5000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW65
@@ -1818,7 +1603,7 @@ F 1 "LARW" H 8550 5194 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 8550 5200 50  0001 C CNN
 F 3 "~" H 8550 5200 50  0001 C CNN
 	1    8550 5000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW64
@@ -1829,7 +1614,7 @@ F 1 "FNKY" H 7950 5194 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.25U-NoLED" H 7950 5200 50  0001 C CNN
 F 3 "~" H 7950 5200 50  0001 C CNN
 	1    7950 5000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW63
@@ -1840,7 +1625,7 @@ F 1 "RALT" H 7350 5194 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.25U-NoLED" H 7350 5200 50  0001 C CNN
 F 3 "~" H 7350 5200 50  0001 C CNN
 	1    7350 5000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW62
@@ -1851,7 +1636,7 @@ F 1 "SPCB" H 4950 5194 50  0000 C CNN
 F 2 "MX_Only:MXOnly-6.25U-NoLED" H 4950 5200 50  0001 C CNN
 F 3 "~" H 4950 5200 50  0001 C CNN
 	1    4950 5000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 NoConn ~ 1450 4950
 $Comp
@@ -1863,7 +1648,7 @@ F 1 "LALT" H 2550 5194 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.25U-NoLED" H 2550 5200 50  0001 C CNN
 F 3 "~" H 2550 5200 50  0001 C CNN
 	1    2550 5000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW60
@@ -1874,7 +1659,7 @@ F 1 "WNDW" H 1950 5194 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.25U-NoLED" H 1950 5200 50  0001 C CNN
 F 3 "~" H 1950 5200 50  0001 C CNN
 	1    1950 5000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW59
@@ -1885,16 +1670,8 @@ F 1 "LCTR" H 1350 5194 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.25U-NoLED" H 1350 5200 50  0001 C CNN
 F 3 "~" H 1350 5200 50  0001 C CNN
 	1    1350 5000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Connection ~ 1550 4050
-Connection ~ 2150 4050
-Connection ~ 2750 4050
-Connection ~ 5150 4050
-Connection ~ 7550 4050
-Connection ~ 8750 4050
-Connection ~ 9350 4050
-Connection ~ 9950 4050
 Wire Wire Line
 	1150 5300 900  5300
 Wire Wire Line
@@ -1921,9 +1698,233 @@ Wire Wire Line
 Connection ~ 8950 5300
 Wire Wire Line
 	8950 5300 9550 5300
-Wire Wire Line
-	8150 3100 8150 5000
-Connection ~ 8150 3100
 Text GLabel 900  5300 0    50   Input ~ 0
 row4
+$Comp
+L Switch:SW_Push SW1
+U 1 1 628A0939
+P 1350 1200
+F 0 "SW1" H 1350 1485 50  0000 C CNN
+F 1 "ESC" H 1350 1394 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 1350 1400 50  0001 C CNN
+F 3 "~" H 1350 1400 50  0001 C CNN
+	1    1350 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 628B0D16
+P 2550 1200
+F 0 "SW3" H 2550 1485 50  0000 C CNN
+F 1 "#2" H 2550 1394 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 2550 1400 50  0001 C CNN
+F 3 "~" H 2550 1400 50  0001 C CNN
+	1    2550 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 628B0D2C
+P 3150 1200
+F 0 "SW4" H 3150 1485 50  0000 C CNN
+F 1 "#3" H 3150 1394 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 3150 1400 50  0001 C CNN
+F 3 "~" H 3150 1400 50  0001 C CNN
+	1    3150 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 628ACC03
+P 1950 1200
+F 0 "SW2" H 1950 1485 50  0000 C CNN
+F 1 "#1" H 1950 1394 50  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 1950 1400 50  0001 C CNN
+F 3 "~" H 1950 1400 50  0001 C CNN
+	1    1950 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2150 900  2150 1200
+Connection ~ 2150 1200
+Wire Wire Line
+	1550 900  1550 1200
+Connection ~ 1550 1200
+Wire Wire Line
+	2750 900  2750 1200
+Connection ~ 2750 1200
+Wire Wire Line
+	3350 900  3350 1200
+Connection ~ 3350 1200
+Wire Wire Line
+	3950 900  3950 1200
+Connection ~ 3950 1200
+Wire Wire Line
+	5150 900  5150 1200
+Connection ~ 5150 1200
+Wire Wire Line
+	5750 900  5750 1200
+Connection ~ 5750 1200
+Wire Wire Line
+	6350 900  6350 1200
+Connection ~ 6350 1200
+Wire Wire Line
+	6950 900  6950 1200
+Connection ~ 6950 1200
+Wire Wire Line
+	7550 900  7550 1200
+Connection ~ 7550 1200
+Wire Wire Line
+	8150 900  8150 1200
+Connection ~ 8150 1200
+Wire Wire Line
+	8750 900  8750 1200
+Connection ~ 8750 1200
+Wire Wire Line
+	9350 900  9350 1200
+Connection ~ 9350 1200
+Wire Wire Line
+	9950 900  9950 1200
+Connection ~ 9950 1200
+Wire Wire Line
+	9950 1200 9950 2150
+Connection ~ 9950 2150
+Wire Wire Line
+	9350 1200 9350 2150
+Connection ~ 9350 2150
+Wire Wire Line
+	8750 1200 8750 2150
+Connection ~ 8750 2150
+Wire Wire Line
+	8150 1200 8150 2150
+Connection ~ 8150 2150
+Wire Wire Line
+	7550 1200 7550 2150
+Connection ~ 7550 2150
+Wire Wire Line
+	6950 1200 6950 2150
+Connection ~ 6950 2150
+Wire Wire Line
+	6350 1200 6350 2150
+Connection ~ 6350 2150
+Wire Wire Line
+	4550 1200 4550 2150
+Connection ~ 4550 2150
+Wire Wire Line
+	5150 1200 5150 2150
+Connection ~ 5150 2150
+Wire Wire Line
+	5750 1200 5750 2150
+Connection ~ 5750 2150
+Wire Wire Line
+	3950 1200 3950 2150
+Connection ~ 3950 2150
+Wire Wire Line
+	3350 1200 3350 2150
+Connection ~ 3350 2150
+Wire Wire Line
+	2750 1200 2750 2150
+Connection ~ 2750 2150
+Wire Wire Line
+	2150 1200 2150 2150
+Connection ~ 2150 2150
+Wire Wire Line
+	1550 1200 1550 2150
+Connection ~ 1550 2150
+Wire Wire Line
+	1550 2150 1550 3100
+Connection ~ 1550 3100
+Wire Wire Line
+	2150 2150 2150 3100
+Connection ~ 2150 3100
+Wire Wire Line
+	2750 2150 2750 3100
+Connection ~ 2750 3100
+Wire Wire Line
+	3350 2150 3350 3100
+Connection ~ 3350 3100
+Wire Wire Line
+	3350 3100 3350 4050
+Wire Wire Line
+	3950 2150 3950 3100
+Connection ~ 3950 3100
+Wire Wire Line
+	3950 3100 3950 4050
+Wire Wire Line
+	4550 2150 4550 3100
+Connection ~ 4550 3100
+Wire Wire Line
+	4550 3100 4550 4050
+Wire Wire Line
+	5150 2150 5150 3100
+Connection ~ 5150 3100
+Wire Wire Line
+	5750 2150 5750 3100
+Connection ~ 5750 3100
+Wire Wire Line
+	5750 3100 5750 4050
+Wire Wire Line
+	6350 2150 6350 3100
+Connection ~ 6350 3100
+Wire Wire Line
+	6350 3100 6350 4050
+Wire Wire Line
+	6950 2150 6950 3100
+Connection ~ 6950 3100
+Wire Wire Line
+	6950 3100 6950 4050
+Wire Wire Line
+	7550 2150 7550 3100
+Connection ~ 7550 3100
+Wire Wire Line
+	8150 2150 8150 3100
+Connection ~ 8150 3100
+Wire Wire Line
+	8150 3100 8150 5000
+Wire Wire Line
+	9350 2150 9350 3100
+Connection ~ 9350 3100
+Wire Wire Line
+	9950 2150 9950 3100
+Connection ~ 9950 3100
+Wire Wire Line
+	9950 3100 9950 4050
+Connection ~ 9950 4050
+Wire Wire Line
+	9950 4050 9950 5000
+Wire Wire Line
+	9350 3100 9350 4050
+Connection ~ 9350 4050
+Wire Wire Line
+	9350 4050 9350 5000
+Wire Wire Line
+	8750 2150 8750 4050
+Connection ~ 8750 4050
+Wire Wire Line
+	8750 4050 8750 5000
+Wire Wire Line
+	7550 3100 7550 4050
+Connection ~ 7550 4050
+Wire Wire Line
+	7550 4050 7550 5000
+Wire Wire Line
+	5150 3100 5150 4050
+Connection ~ 5150 4050
+Wire Wire Line
+	5150 4050 5150 5000
+Wire Wire Line
+	2750 3100 2750 4050
+Connection ~ 2750 4050
+Wire Wire Line
+	2750 4050 2750 5000
+Wire Wire Line
+	2150 3100 2150 4050
+Connection ~ 2150 4050
+Wire Wire Line
+	2150 4050 2150 5000
+Wire Wire Line
+	1550 3100 1550 4050
+Connection ~ 1550 4050
+Wire Wire Line
+	1550 4050 1550 5000
 $EndSCHEMATC
