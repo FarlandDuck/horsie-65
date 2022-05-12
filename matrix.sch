@@ -35,7 +35,7 @@ F 1 "#5" H 4350 1394 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4350 1400 50  0001 C CNN
 F 3 "~" H 4350 1400 50  0001 C CNN
 	1    4350 1200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW7
@@ -139,8 +139,6 @@ F 3 "~" H 9750 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 NoConn ~ 8650 1150
-Wire Wire Line
-	4550 1200 4550 900 
 Text GLabel 1550 900  1    50   Input ~ 0
 col0
 Text GLabel 2150 900  1    50   Input ~ 0
@@ -752,7 +750,6 @@ F 3 "~" H 1350 2350 50  0001 C CNN
 	1    1350 2150
 	-1   0    0    1   
 $EndComp
-Connection ~ 4550 1200
 $Comp
 L Device:D D31
 U 1 1 62AC6CCF
@@ -1807,8 +1804,6 @@ Connection ~ 6950 2150
 Wire Wire Line
 	6350 1200 6350 2150
 Connection ~ 6350 2150
-Wire Wire Line
-	4550 1200 4550 2150
 Connection ~ 4550 2150
 Wire Wire Line
 	5150 1200 5150 2150
@@ -1927,4 +1922,9 @@ Wire Wire Line
 Connection ~ 1550 4050
 Wire Wire Line
 	1550 4050 1550 5000
+Wire Wire Line
+	4550 900  4550 1200
+Connection ~ 4550 1200
+Wire Wire Line
+	4550 1200 4550 2150
 $EndSCHEMATC
