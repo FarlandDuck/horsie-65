@@ -543,15 +543,15 @@ Text GLabel 6900 3650 2    50   Input ~ 0
 col13
 Text GLabel 6900 3750 2    50   Input ~ 0
 col14
-Text GLabel 6900 4050 2    50   Input ~ 0
+Text GLabel 6900 4450 2    50   Input ~ 0
 row0
 Text GLabel 6900 4250 2    50   Input ~ 0
 row2
-Text GLabel 6900 4350 2    50   Input ~ 0
+Text GLabel 6900 4050 2    50   Input ~ 0
 row3
-Text GLabel 6900 4450 2    50   Input ~ 0
-row4
 Text GLabel 6900 4550 2    50   Input ~ 0
+row4
+Text GLabel 6900 4350 2    50   Input ~ 0
 row1
 Text GLabel 6900 4650 2    50   Input ~ 0
 col5
@@ -571,10 +571,10 @@ $EndComp
 Wire Wire Line
 	3000 1600 3350 1600
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0101
 U 1 1 63005D74
 P 3150 2600
-F 0 "#PWR?" H 3150 2450 50  0001 C CNN
+F 0 "#PWR0101" H 3150 2450 50  0001 C CNN
 F 1 "+5V" H 3165 2773 50  0000 C CNN
 F 2 "" H 3150 2600 50  0001 C CNN
 F 3 "" H 3150 2600 50  0001 C CNN
