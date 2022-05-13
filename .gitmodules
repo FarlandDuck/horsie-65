@@ -10,3 +10,6 @@
 [submodule "Unified-Daughterboard"]
 	path = Unified-Daughterboard
 	url = https://github.com/ai03-2725/Unified-Daughterboard
+[submodule "bakeneko-60"]
+	path = bakeneko-60
+	url = https://github.com/kkatano/bakeneko-60
